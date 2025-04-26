@@ -66,9 +66,14 @@ To develop the application, the work has been separated in different tasks.
   - Add card component
   Each component includes styles and unit tests
 
-TODO
+5. Add sorting
+  - Add documents sorting
 
-5. Review
+6. Add document creation
+  - Add document form
+  - Display created documents into the list (locally stored)
+
+7. Review
   - A final step to review the application is working properly and do necessary refactor. 
 
 Testing is added for each component and validation helpers.
