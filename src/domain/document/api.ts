@@ -5,5 +5,5 @@ import { Document } from '@/domain/document/types';
 export const getDocuments = async (): Promise<Document[]> => {
   const data = await api('/documents', 'GET');
   const documents = data ?? [];
-  return documents?.map(formatDocument);
+  return documents.map(formatDocument);
 }
