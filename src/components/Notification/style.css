@@ -1,0 +1,40 @@
+.notification-content {
+  background-color: var(--lighter);
+  color: var(--gray);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+  cursor: default;
+  width: fit-content;
+
+  >figure {
+    margin: 0;
+    position: relative;
+  }
+
+  strong {
+    display: inline-block;
+    width: 8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.notification-amount {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: var(--accent);
+  color: var(--white);
+  font-size: xx-small;
+  font-weight: bold;
+  border-radius: 1rem;
+  width: 15px;
+  height: 15px;
+  line-height: inherit;
+  text-align: center;
+}
