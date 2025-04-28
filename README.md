@@ -64,6 +64,7 @@ To develop the application, the work has been separated in different tasks.
 4. Add components
   - Add notification component
   - Add card component
+  
   Each component includes styles and unit tests
 
 5. Add sorting
