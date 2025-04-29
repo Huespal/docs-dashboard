@@ -11,7 +11,11 @@ export default defineConfig({
     environment: 'happy-dom',
     onConsoleLog: () => false,
     coverage: {
-      include: ['src/components/*']
+      include: [
+        'src/components/*',
+        'src/core/helpers.ts',
+        'src/domain/document/helpers.ts'
+      ]
     }
   }
 })

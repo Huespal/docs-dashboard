@@ -12,3 +12,13 @@ export const formatDocument = (document: APIDocument): Document => ({
   createdAt: document.CreatedAt ?? '',
   updatedAt: document.UpdatedAt ?? ''
 });
+
+export const generateDocument = (): Document => ({
+  id: '999',
+  title: 'New Document',
+  version: '1.0.0',
+  attachments: ['Attachment 1', 'Attachment 2'],
+  contributors: [{ id: '1', name: 'You :)' }],
+  createdAt: new Date().toUTCString(),
+  updatedAt: new Date().toUTCString()
+})

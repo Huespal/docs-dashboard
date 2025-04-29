@@ -1,0 +1,29 @@
+.document-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    padding: 0px;
+    border: none;
+
+    &.disabled {
+      opacity: 50%;
+    }
+  }
+}
+
+.document-controls-sort {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  select {
+    background-color: transparent;
+    height: fit-content;
+    border: none;
+    color: var(--accent);
+    outline: none;
+    font-size: 1rem;
+  }
+}

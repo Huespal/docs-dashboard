@@ -6,7 +6,7 @@ export type Contributor = {
 export type Document = {
   id: string;
   title: string;
-  version: number;
+  version: string;
   attachments: string[];
   contributors: Contributor[];
   createdAt: string;
@@ -21,7 +21,7 @@ export type APIContributor = {
 export type APIDocument = {
   ID: string;
   Title: string;
-  Version: number;
+  Version: string;
   Attachments: string[];
   Contributors: APIContributor[];
   CreatedAt: string;
